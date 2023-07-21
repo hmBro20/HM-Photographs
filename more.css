@@ -1,0 +1,165 @@
+/* Header start */
+
+header{
+    height: 70px;
+    width: 100%;
+    display :flex;
+    position:fixed;
+    top:0;
+    background:linear-gradient(#ffffff,#ffffff);
+}
+
+.hd{
+    height: 60px;
+    width: 100%;
+    background-colour:;
+}
+img{
+    height: 40px;
+    width: auto;
+    padding: 6px;
+    padding-left:50px;
+    margin-top:5px;
+    margin-left: 2px;
+}
+
+.nev{
+    display: flex;
+    flex-direction: right;
+    width: 455px;
+    list-style:none;
+    text-decoration:none;
+    display:flex;
+    padding-left: 0px;
+    margin-top:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(45deg, 
+#fc00ff,
+#00dbde);
+    background-size: 200% 200%;
+    margin-right: 15px;
+    animation: nevi 5s ease infinite;
+}
+@keyframes nevi{
+    0%{
+        background-position: 0% 50%;
+    }
+    25%{
+        background-position: 50% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    75%{
+        background-position: 50% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.nev a{
+    font-size:15px;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom: 6px;
+    padding-top: 7px;
+    margin-left: 0px;
+    margin-right: 2px;
+    text-decoration:none;    
+    colour:black;
+    background-color: white;
+    transition: 0.5s ease;
+    border: none;
+    
+}
+
+
+.nev a:hover{
+    height: auto;
+    width: 30px;
+    background-color: rgba(0,0,0, 0.0);
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #ffffff;
+    
+}
+
+/* Header End*/
+
+/* section 1 */
+
+@font-face  {
+    font-family: 'font1';
+    src: url('fonts/BecauseYouWereHome.ttf');
+}
+
+.sec1{
+    height: 450px;
+    width: 100%;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.pgin{
+    justify-content: center;
+}
+
+.pgin h3, .ptin h3{
+    font-size: 40px;
+    margin-top: 8px;
+}
+
+.pgin h6, .ptin h6{
+    font-size: 17px;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.pgin ul{
+    list-style: none;
+}
+
+.pgin li{
+    height: 25px;
+    width: 150px;
+    background-color: #f44600;
+    color: white;
+    margin: 0 auto;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 39%;
+    box-shadow: 3px 3px 7px #808080;
+    transition-duration: 0.5s;
+}
+
+.pgin li:hover{
+    box-shadow: none;
+    background-color: black;
+    color: #f44600;
+}
+
+.pgin a{
+    text-decoration: none;
+    color: white;
+    font-family: font1;
+}
+
+
+.pgin li:hover a{
+    color: #f44600;
+}
+
+.pgin img{
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(120deg, #ffdc00, #8fff00);
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
